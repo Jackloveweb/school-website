@@ -1,0 +1,115 @@
+        /* 顶部横幅 */
+        .banner img {
+            height: 280px;
+            width: 80%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* 导航栏 - 核心修改部分 */
+        .nav {
+            background-color: #c8102e;
+            width: 80%;
+            text-align: center;
+            padding: 15px 0;
+            margin: 0 auto;
+        }
+
+        .nav .nav-item {
+            display: inline-block;
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            margin: 0 50px;
+            font-weight: bold;
+        }
+
+        /* 竖线分隔符样式 */
+        /* span行内元素，通常用于包裹行内的小部分文本 / 元素，实现局部样式修改 */
+        .nav .separator {
+            color: white;
+            font-size: 18px;
+        }
+
+        .nav .nav-item:hover {
+            color: #f4ec59;
+        }
+
+        /* 主内容容器 */
+        .main-container {
+            width: 80%;
+            margin: 30px auto;
+        }
+
+        /* 左侧图片的区块容器 */
+        .section-left-img {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* 右侧图片的区块容器 */
+        .section-right-img {
+            background-color: white;
+            margin-bottom: 30px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+
+        /* 左侧图片盒子 */
+        .img-box-left {
+            float: left;
+            width: 48%;
+            margin-right: 4%;
+        }
+
+        /* 右侧图片盒子 */
+        .img-box-right {
+            float: right;
+            width: 48%;
+            margin-left: 4%;
+        }
+
+        /* 图片样式（通用） */
+        .img-box-left img,
+        .img-box-right img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+
+        /* 文本盒子（通用） */
+        .text-box-common {
+            overflow: hidden;
+        }
+
+        /* 标题样式（通用） */
+        .title-common {
+            color: #c8102e;
+            margin-bottom: 10px;
+            font-size: 22px;
+        }
+
+        /* 正文样式（通用） */
+        .content-common {
+            line-height: 1.8;
+            color: #333;
+            font-size: 16px;
+        }
+
+        /* 页脚 */
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+            width: 80%;
+            margin: 0 auto;
+        }
